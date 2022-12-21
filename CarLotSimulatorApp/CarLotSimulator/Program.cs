@@ -48,6 +48,8 @@ namespace CarLotSimulator
             lot.Stock.Add(chevy2);
 
 
+            Console.WriteLine("---------------");
+
             foreach (var vehicle in lot.Stock)
             {
                 vehicle.MakeEngineNoise(vehicle.EngineNoise);
